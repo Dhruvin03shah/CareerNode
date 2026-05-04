@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+    --card: 224 71% 4%;
+    --card-foreground: 213 31% 91%;
+    --border: 216 34% 17%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased min-h-screen selection:bg-primary/20;
+    /* Deep 3D gradient background */
+    background: linear-gradient(to bottom right, #0f172a, #020617, #000000);
+  }
+}
+
+/* Glassmorphism utilities */
+.glass {
+  @apply bg-white/5 backdrop-blur-lg border border-white/10;
+}
+
+/* ── R3F Canvas: never block pointer events on the fixed scene ── */
+canvas {
+  pointer-events: none;
+}
+
+/* Re-enable pointer events for inline canvases (HeroOrb, etc.) */
+.pointer-events-auto canvas {
+  pointer-events: auto;
+}
+
+/* Deeper glass for cards rendered above the 3D scene */
+.glass-dark {
+  background: rgba(2, 6, 23, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}

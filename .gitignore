@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.env
+
+# Node
+node_modules/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Misc
+*.log
+backend.log
+scratch/
+test_ats.py
+test_llm.py
+test_resume_agent.py
+test_run.py
+test_stream.py
+scratch.py
+output.txt

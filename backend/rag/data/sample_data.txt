@@ -1,0 +1,16 @@
+Amazon Data Analyst Interview Questions:
+1. Explain a complex project you worked on and the impact it had.
+2. What is SQL JOIN and what are the different types of JOINs?
+3. Explain database normalization and why it is important.
+4. How do you handle missing or corrupted data in a dataset?
+5. What is machine learning and how is it different from traditional programming?
+6. Can you describe an A/B testing framework you have used to evaluate a new feature?
+7. Write a SQL query to find the second highest salary from an Employee table.
+8. How would you design a dashboard to track daily active users and retention?
+9. Explain the difference between supervised and unsupervised learning with examples.
+10. Describe a time you had to present complex analytical data to a non-technical audience.
+11. How do you decide which metric to optimize for a new product launch?
+12. What are the pros and cons of using Random Forest versus Logistic Regression?
+13. How do you detect and deal with outliers in a large dataset?
+14. Explain the concept of p-value in hypothesis testing.
+15. Tell me about a time you used SQL window functions to solve a complex business problem.
